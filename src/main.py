@@ -155,7 +155,7 @@ def parse_args():
     parser.add_argument("--rows", type=int, default=80)
     parser.add_argument("--cols", type=int, default=120)
     parser.add_argument("--obstacle-p", type=float, default=0.28)
-    parser.add_argument("--seed", type=int, default=7)
+    parser.add_argument("--seed", type=int, default=None)
     parser.add_argument("--min-cost", type=int, default=1)
     parser.add_argument("--max-cost", type=int, default=9)
     parser.add_argument("--start-row", type=int, default=2)

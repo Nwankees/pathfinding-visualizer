@@ -10,7 +10,7 @@ class GridSpec:
     rows: int
     cols: int
     obstacle_p: float = 0.22
-    seed: int | None = 0
+    seed: int | None = None
     min_cost: int = 1
     max_cost: int = 9
 
